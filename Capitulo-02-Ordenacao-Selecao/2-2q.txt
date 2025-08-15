@@ -1,0 +1,7 @@
+Questão 2.2 = Suponha que você esteja criando um aplicativo para anotar os pedidos dos clientes em um restaurante. Seu aplicativo precisa de uma lista de pedidos. Os garçons adicionam os pedidos a essa lista e os chefes retiram os pedidos da lista. Funciona como uma fila. Os garçons colocam os pedidos no final da fila e os chefes retiram os pedidos do começo dela para cozinhá-los.
+Resposta = 
+Adicionar no final é no array custa O(1) pois como não há a mudança de lugar dos outros elementos não se torna custoso (caso esse se fosse inserir no começo), e retirar no começo no array custa O(n), pois há a mudança de local de todos os outros elmentos.
+Analisando agora na visão da lista encadeada com ponteiro para first e last:
+Inserir no começo = O(1) pois tem o endereço do primeiro nó, basta alterar a ligação deles
+Deletar do começo = O(1) justamente por ter o endereço logo, tendo que apenas mudar a ligação dos nós.
+ 
