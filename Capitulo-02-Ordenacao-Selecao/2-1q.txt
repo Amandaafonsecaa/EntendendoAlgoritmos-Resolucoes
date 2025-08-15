@@ -1,0 +1,2 @@
+Questão 2.1 = Você está criando um app de finanças pessoais. Todo dia você insere gastos (muitas inserções) e, de vez em quando, lê/resume os dados (poucas leituras). A questão pede para decidir qual estrutura de dados usar e por quê — pensando no custo de inserção e de acesso
+Resposta = Levando em consideração que eu irei ler pouco O(n) e, quando ler, será no final do mês para ler todos meus custos pode ser a lista encadeada, ela seria a melhor escolha tendo em vista que irei adicionar muitas coisas O(1), e a encadeada a inserção é menos custosa!
