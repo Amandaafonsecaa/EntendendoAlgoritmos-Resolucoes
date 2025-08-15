@@ -1,0 +1,2 @@
+Questão 1.6 = Você quer ler os números apenas dos nomes que começam com A. 
+Resposta = Há varias soluções, umas delas é usar inicialmente a pesquisa binária para pegar o primeiro nome que começa com A (O(log n)) e depois lê sequencialmente todos O(k), sendo k todos os nomes com A. Somando O(logn+k)
